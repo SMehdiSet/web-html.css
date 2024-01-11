@@ -1,0 +1,42 @@
+main {
+    padding-top: 32px;
+}
+
+.plan {
+     width: 60%;
+     margin: 16px 0;
+     border: 2px solid #1565c0;
+     border-left: none;
+     text-align: right;
+     border-radius: 3px;
+}
+
+#plus {
+    background: #bbdefb;
+}
+
+#free {
+    background: #e3f2fd;
+}
+
+#premium {
+    background: #1565c0;
+}
+.plan a {
+    text-decoration: none;
+    color: #0d47a1;
+    display: block;
+    padding: 32px;
+}
+
+.plan__info {
+    padding: 16px;
+    border: 1px solid #1e88e5;
+    font-size: 15px;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+#premium .plan__title {
+    color: #ffffff;
+}
