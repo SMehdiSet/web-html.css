@@ -17,6 +17,13 @@ main {
 
 #free {
     background: #e3f2fd;
+    float: right;
+    border-right: none;
+    border-left: 2px solid #1565c0;
+}
+
+.clearfix {
+    clear: both;
 }
 
 #premium {
