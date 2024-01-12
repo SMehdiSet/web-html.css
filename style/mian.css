@@ -3,8 +3,13 @@ main {
     padding-top: 60px;
 }
 
+#plans {
+    position: relative;
+    z-index: 1;
+}
+
 .section-title {
-    color: #1565c0;
+    color: #0d0d0d;
     text-align: center;
 }
 
@@ -19,6 +24,8 @@ main {
     box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.14);
     direction: rtl;
     border-radius: 3px;
+    background: rgba(186, 215, 247, 0.8);
+
 }
 
 .plan__highlighted {
@@ -55,7 +62,7 @@ main {
 }
 
 #features {
-    background-: #f5f5f5;
+    background: rgba(245, 245, 245, 0.8);
     margin-top: 80px;
     padding: 16px;
 }
