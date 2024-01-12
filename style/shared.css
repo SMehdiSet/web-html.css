@@ -8,13 +8,10 @@
 }
 
 .background {
-    background: url("../../image/Wallet.png");
+    background: url("../../image/Wallet.png") center/cover no-repeat;
     width: 100%;
     height: 1080px;
-    background-repeat: no-repeat;
     position: fixed;
-    background-position-x: center;
-    background-size: cover;
     z-index: -1;
 }
 
