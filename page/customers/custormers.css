@@ -1,0 +1,29 @@
+main {
+    padding: 32px;
+}
+
+.testimonials {
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.40);
+    background-color: rgba(187, 222, 251, 0.4);
+    border-radius: 50px;
+    text-align: center;
+    width: 66%;
+    margin-top: 96px;
+    padding: 8px;
+}
+
+.testimoniam__image-container {
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background: #1565c0;
+    border-radius: 200px;
+}
+
+#customer2.testimonials {
+    float: right;
+}
+
+main >div {
+    overflow: hidden;
+}

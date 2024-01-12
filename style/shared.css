@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 @font-face {
     font-family: 'Vazir-FD';
     src: url('../font/Vazirmatn-FD-Regular.woff2');
@@ -20,11 +19,6 @@
     background-size: cover;
     z-index: -1;
 
-}
-
-.main-header__push-down {
-    
-    padding: 30px;
 }
 
 body {
