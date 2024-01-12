@@ -4,6 +4,7 @@ main {
 
 main >div {
     overflow: hidden;
+    padding: 31px;
 }
 
 .testimonials {
