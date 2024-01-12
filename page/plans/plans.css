@@ -48,6 +48,8 @@ main {
     padding: 32px;
 }
 
+
+
 .plan__info {
     padding: 16px;
     border: 1px solid #1e88e5;
@@ -59,9 +61,14 @@ main {
 .plan__badge {
     position: absolute;
     top: 0px;
-    right: 600px;
+    right: 12px;
     margin: 20px;
-    font-size: 20px;
+    font-size: 16px;
+    background: #1e88e5;
+    color: #ffffff;
+    padding: 2px 8px;
+    border: 1px solid #1565c0;
+    border-radius: 3px;
 }
 
 #premium .plan__title {
