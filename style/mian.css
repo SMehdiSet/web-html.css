@@ -5,7 +5,6 @@ main {
 
 #plans {
     position: relative;
-    z-index: 1;
 }
 
 .section-title {
@@ -65,6 +64,7 @@ main {
     background: rgba(245, 245, 245, 0.8);
     margin-top: 80px;
     padding: 16px;
+    position: relative;
 }
 
 #feature .section-title {
