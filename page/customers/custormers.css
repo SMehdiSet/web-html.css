@@ -1,10 +1,10 @@
 main {
-    padding: 32px;
+    padding: 2rem;
 }
 
 main >div {
     overflow: hidden;
-    padding: 31px;
+    padding: 1.94rem;
     position: relative;
 }
 
@@ -14,10 +14,10 @@ main >div {
     border-radius: 50px;
     text-align: center;
     width: 66%;
-    max-width: 800px;
-    min-width: 328px;
-    margin-top: 96px;
-    padding: 8px;
+    max-width: 50rem;
+    min-width: 20.5rem;
+    margin-top: 6rem;
+    padding: 0.5rem;
 }
 
 #customer2.testimonials {
@@ -27,8 +27,8 @@ main >div {
 .testimoniam__image-container {
     margin: auto;
     width: 80%;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 37.5rem;
+    min-width: 18.75rem;
     height: auto;
     background: #1565c0;
     border-radius: 200px;
