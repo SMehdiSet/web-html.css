@@ -1,10 +1,10 @@
 main {
-    padding: 32px;
+    padding: 2rem;
 }
 
 main >div {
     overflow: hidden;
-    padding: 31px;
+    padding: 1.94rem;
     position: relative;
 }
 
@@ -14,8 +14,8 @@ main >div {
     border-radius: 50px;
     text-align: center;
     width: 66%;
-    margin-top: 96px;
-    padding: 8px;
+    margin-top: 6rem;
+    padding: 0.5rem;
 }
 
 #customer2.testimonials {
