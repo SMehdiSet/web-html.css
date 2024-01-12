@@ -14,6 +14,8 @@ main >div {
     border-radius: 50px;
     text-align: center;
     width: 66%;
+    max-width: 50rem;
+    min-width: 20.5rem;
     margin-top: 6rem;
     padding: 0.5rem;
 }
@@ -25,6 +27,8 @@ main >div {
 .testimoniam__image-container {
     margin: auto;
     width: 80%;
+    max-width: 37.5rem;
+    min-width: 18.75rem;
     height: auto;
     background: #1565c0;
     border-radius: 200px;
