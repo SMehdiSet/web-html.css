@@ -2,6 +2,10 @@ main {
     padding: 32px;
 }
 
+main >div {
+    overflow: hidden;
+}
+
 .testimonials {
     box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.40);
     background-color: rgba(187, 222, 251, 0.4);
@@ -12,18 +16,25 @@ main {
     padding: 8px;
 }
 
-.testimoniam__image-container {
-    margin: auto;
-    width: 80%;
-    height: 500px;
-    background: #1565c0;
-    border-radius: 200px;
-}
-
 #customer2.testimonials {
     float: right;
 }
 
-main >div {
-    overflow: hidden;
+.testimoniam__image-container {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    background: #1565c0;
+    border-radius: 200px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
 }
+
+
+
+.customer-image {
+    width: 100%;
+    height: auto;
+    border-radius: 200px;
+    vertical-align: top;
+}
+
