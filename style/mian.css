@@ -1,6 +1,6 @@
 
 main {
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 
 #plans {
@@ -15,8 +15,8 @@ main {
 .plan {
     width: 30%;
     display: inline-block;
-    margin: 8px;
-    padding: 16px;
+    margin: 0.5rem;
+    padding: 1rem;
     text-align: center;
     vertical-align: middle;
     color: #424242;
@@ -35,7 +35,7 @@ main {
 
 .plan__title--highlighted {
     background: #ffffff;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 3px;
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 .plan__feature {
-    margin: 8px 0;
+    margin: 0.5rem 0;
 }
 
 .plan__btn {
@@ -54,7 +54,7 @@ main {
     color: white;
     font: inherit;
     border: none;
-    padding: 4px 16px;
+    padding: 0.25rem 1rem;
     border-radius: 5px;
     font-weight: bold;
     outline: none;
@@ -62,13 +62,13 @@ main {
 
 #features {
     background: rgba(245, 245, 245, 0.8);
-    margin-top: 80px;
-    padding: 16px;
+    margin-top: 5rem;
+    padding: 1rem;
     position: relative;
 }
 
 #feature .section-title {
-    margin: 32px;
+    margin: 2rem;
 }
 
 .features__list {
@@ -81,8 +81,8 @@ main {
 .features__list--element {
     display: inline-block;
     width: 30%;
-    padding: 0px 16px;
-    margin: 8px;
+    padding: 0px 1rem;
+    margin: 0.5rem;
 }
 
 .features__description {
@@ -90,13 +90,13 @@ main {
     vertical-align: middle;
     font-weight: bold;
     color: #1976d2;
-    font-size: 18;
+    font-size: 1rem;
 }
 
 .features__image {
     background: #bbdefb;
-    width: 128px;
-    height: 128px;
+    width: 8rem;
+    height: 8rem;
     border: 1px solid #42a5f5;
     border-radius: 50%;
     margin: auto;
