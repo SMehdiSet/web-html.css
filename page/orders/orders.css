@@ -1,0 +1,39 @@
+main {
+    position: relative;
+    direction: rtl;
+}
+
+.order-form {
+    padding: 1rem;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #bbdefb;
+    margin-top: 4.5rem;
+}
+
+.order-form input{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    font: inherit;
+}
+
+.order-form input[type='checkbox'], 
+.order-form input[type='checkbox'] + label {
+    display: inline-block;
+    width: auto;
+}
+
+.order-form button {
+    display: block;
+    margin-top: 1rem;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    background: #1565c0;
+    font: inherit;
+    padding: 0.25rem 0.5rem;
+}
