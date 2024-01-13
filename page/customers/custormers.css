@@ -44,6 +44,11 @@ main >div {
         min-width: 20.5rem;
     }
 
+    main > div {
+        display: flex;
+        flex-direction: column;
+    }
+
     .testimoniam__image-container {
         width: 80%;
         max-width: 37.5rem;
@@ -51,6 +56,6 @@ main >div {
     }
 
     #customer2.testimonials {
-        float: right;
+        align-self: flex-end;
     }
 }
