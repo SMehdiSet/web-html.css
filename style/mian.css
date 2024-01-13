@@ -101,3 +101,40 @@ main {
     border-radius: 50%;
     margin: auto;
 }
+
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+    text-align: center;
+}
+
+.modal__action {
+    border: 1px solid #1565c0;
+    background: #1565c0;
+    text-decoration: none;
+    color: #ffffff;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.modal__action--negative {
+    background: #d81b60;
+    border: 1px solid #d81b60;
+}
