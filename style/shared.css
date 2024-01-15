@@ -35,6 +35,16 @@
 body {
     font-family: Vazir-FD;
     margin: 0;
+    display: grid;
+    grid-template-rows: 2rem auto auto;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+main { 
+    grid-area: main;
 }
 
 .backdrop {
@@ -106,6 +116,7 @@ body {
 .main-footer {
     background: #424242;
     padding: 2rem;
+    grid-area: footer;
 }
 
 .main-footer__links {
